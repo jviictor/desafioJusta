@@ -10,8 +10,7 @@ describe("#desafioJusta 3 - Eu, como Herói, desejo realizar a compra e efeturar
   //First Page - selecionando um elemento para adicionar no carrinho e confirmando
     cy.get('#homefeatured > .first-in-line.first-item-of-tablet-line > .product-container > .right-block > .button-container > .ajax_add_to_cart_button > span').should('be.visible').click()
     cy.get('.button-medium > span').click()
-  //Second Page - Adicionando mais uma peça e clicando no botão para prosseguir com a compra
-    cy.get('[name="quantity_1_1_0_0"]').type('2')
+  //Second Page - Clicando no botão para prosseguir com a compra
     cy.get('[class="button btn btn-default standard-checkout button-medium"]').click()
   //Third page - Entrando com login e senha e clicando para logar 
     cy.get('#email').type(login)
