@@ -1,0 +1,9 @@
+#DESAFIO JUSTA
+
+PARA RODAR O PROJETO *
+
+TER INSTALADO O NODE.JS
+
+INSTALAR O CYPREES
+
+npm install cypress --save-dev 
