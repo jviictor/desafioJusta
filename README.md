@@ -10,6 +10,6 @@ npm install cypress --save-dev
 
 RODAR
 
-npx cypress open
+npx cypress open, rodar comando no terminal cmd
 
 QUANDO ABRIR O APP SELECIONAR OS TESTES QUE ESTÃO SEPARADOS POR PÁGINA
