@@ -2,7 +2,10 @@ Para rodar o projeto:
 
 Precisa ter instalado npm, cypress
 
-1- npm init 2- npm i cypress --save-dev 3- npx cypress open
+1- npm init 2- npm i cypress --save-dev  
+
+Comando para Rodar:
+npx cypress open
 
 Os testes estão divididos em spec1, spec2 e spec3 de acordo com a ordem:
 1 - Eu, como Herói, desejo realizar a compra de camisa vermelha;
